@@ -1,0 +1,35 @@
+<!-- CARLY PENNOCK 
+    JavaScript30 - Project 1/5 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <script src="https://kit.fontawesome.com/d33a1cb65a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>JavaScript 30</title>
+</head>
+
+<body>
+    <!-- original code - canvas dive -->
+    <canvas id="draw" width="800" height="800"></canvas>
+
+    <!-- added - icons for choosing brush & erase + onclicks-->
+    <div id="tools">
+        <i id="paint" class="fas fa-paint-brush fa-5x" onclick="tools(brushes.Brush)"></i>
+        <h1>Paint</h1>
+        <i id="erase" class="fas fa-eraser fa-5x" onclick="tools(brushes.Eraser)"></i>
+        <h1>Erase</h1>
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>

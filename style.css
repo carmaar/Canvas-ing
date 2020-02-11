@@ -1,0 +1,26 @@
+/* CARLY PENNOCK 
+    JavaScript30 - Project 1/5 */
+
+    /* centered canvas */
+    body {
+        display:flex;
+        justify-content: center;
+        background-color:rgb(96, 156, 122);
+      }
+  
+      #draw {
+        background-color:white;
+        border: 10px solid rgb(45, 70, 70);
+        color: black;
+      }
+  
+      /* added toolkit styles */
+      #tools {
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        padding:2em;
+        margin:0;
+      }
+  
+  
